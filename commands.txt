@@ -10,3 +10,11 @@ git add mlruns.dvc .gitignore
 dvc push
 git add .
 git commit -am "Model trained with 1 epoch"
+git push
+# change num of epochs to 2
+python3 train.py
+dvc add mlruns
+dvc push
+git add .
+git commit -am "Model trained with 1 epoch"
+git push

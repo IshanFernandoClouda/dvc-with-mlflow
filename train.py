@@ -43,7 +43,7 @@ model = keras.Sequential(
 model.summary()
 
 batch_size = 128
-epochs = 1
+epochs = 2
 
 model.compile(loss="categorical_crossentropy", optimizer="adam", metrics=["accuracy"])
 
