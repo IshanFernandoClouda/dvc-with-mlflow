@@ -18,3 +18,5 @@ dvc push
 git add .
 git commit -am "Model trained with 1 epoch"
 git push
+# now run the mlflow ui to view it
+mlflow ui
