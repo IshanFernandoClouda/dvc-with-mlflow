@@ -1,0 +1,5 @@
+There are the commands that I ran in order.
+
+dvc init
+dvc remote add --default myremote gdrive://1NjL5FJSqj_GxUfEMtQZa6DjZl_c8eqpL
+# add import mlflow, mlflow.tensorflow.autolog() to the top of the code
